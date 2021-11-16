@@ -1,6 +1,6 @@
-# Qiita Discussions （クローズドベータ）
+# Qiita Discussions （パブリックベータ）
 
-[ブログ](https://blog.qiita.com/qiita-discussions-closed-beta/)にてお伝えしている通り、以下の項目を実現したいと考えています。
+[ブログ](https://blog.qiita.com/qiita-discussions-public-beta/)にてお伝えしている通り、以下の項目を実現したいと考えています。
 
 - より多くの方が意見を表明できる
     - 問い合わせに比べ、意見を発信するハードルが下がる
