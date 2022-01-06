@@ -1,0 +1,17 @@
+name: Notify Slack
+
+on:
+  discussion_comment:
+    types: [created]
+jobs:
+  notify_creation_of_discussions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: github.event.discussion && github.event.comment
+    steps:
+      - uses: slackapi/slack-github-action@v1.16.0
+        with:
+          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+          slack-message: "Created discussion comment: ${{ github.event.comment.html_url }}"
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
