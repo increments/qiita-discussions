@@ -1,6 +1,6 @@
 ---
 name: Bug report（こちらは現在使用していません）
-about: IssuesではなくDiscussionsを利用してください
+about: IssuesではなくDiscussionsをご利用ください
 title: ''
 labels: ''
 assignees: ''
