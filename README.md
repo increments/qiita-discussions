@@ -16,7 +16,7 @@
 
 ## Qiita Discussions 上では質問しづらい内容について
 
-パブリックな場では聞きづらい内容などは https://support.qiita.com/hc/ja/requests/new からご連絡ください。
+パブリックな場では聞きづらい内容などは [サポートフォーム](https://support.qiita.com/hc/ja/requests/new) からご連絡ください。
 
 ## 削除対応について
 
