@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 5
     if: github.event.discussion && github.event.comment
     steps:
-      - uses: slackapi/slack-github-action@v1.16.0
+      - uses: slackapi/slack-github-action@v1.22.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
           slack-message: "Created discussion comment: ${{ github.event.comment.html_url }}"
