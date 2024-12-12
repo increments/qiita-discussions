@@ -10,9 +10,10 @@ jobs:
     if: github.event.discussion && github.event.comment
     steps:
       - uses: slackapi/slack-github-action@v2.0.0
-        method: chat.postMessage
-        payload: |
-          channel: "${{ secrets.SLACK_CHANNEL_ID }}"
-          text: "Created discussion comment: ${{ github.event.comment.html_url }}"
+        with:
+          method: chat.postMessage
+          payload: |
+            channel: "${{ secrets.SLACK_CHANNEL_ID }}"
+            text: "Created discussion comment: ${{ github.event.comment.html_url }}"
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
