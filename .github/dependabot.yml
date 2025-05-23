@@ -8,5 +8,3 @@ updates:
       day: "monday"
       time: "14:00"
       timezone: "Asia/Tokyo"
-    reviewers:
-      - "increments/qiita-dev-group"
