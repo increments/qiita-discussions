@@ -5,6 +5,5 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "monday"
-      time: "14:00"
+      day: "sunday"
       timezone: "Asia/Tokyo"
